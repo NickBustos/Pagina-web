@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo</title>
-    <link rel="stylesheet" href="./css/bootstrap.css"/>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <ul class="nav navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Código</a>
-            </li>
-        </ul>
-    </nav>
-
+<?php include ("template/cabecera.php"); ?>
     <div class="container">
         <div class = "row">
         <div class="jumbotron">
@@ -35,24 +10,5 @@
                 <a class="btn btn-primary btn-lg" href="#" role="button">Este botón no hace nada</a>
             </p>
         </div>
-
-
-        </div>
-    </div>
-
-    <div class="container">
-        <div class = "row">
-
-
-        </div>
-    </div>
-
-    <div class="container">
-        <div class = "row">
-            
-    
-        </div>
-    </div>
-
-</body>
-</html>
+        
+<?php include ("template/pie.php"); ?>
