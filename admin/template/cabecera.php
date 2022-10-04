@@ -13,7 +13,17 @@
 
 <body>
 
-    <?php $url = "http://".$_SERVER['HTTP_HOST']."/sitioweb/PHP/Pagina-web" ?>
+    <?php
+    //Código para programar en el trabajo
+    //$url = "http://".$_SERVER['HTTP_HOST']."/sitioweb/PHP/Pagina-web"
+
+
+
+    //Codigo para el instituto
+    $url = "http://".$_SERVER['HTTP_HOST']."/Pagina-web"
+
+
+?>
 
 
     <nav class="navbar navbar-expand navbar-light bg-light">

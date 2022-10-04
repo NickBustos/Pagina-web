@@ -2,15 +2,11 @@
 
 <?php
 
-print_r($_POST);
-
-print_r($_FILES);
-
 ?>
 
 
-<div class="row">
-    <section class="col-md-5">
+<div style="margin-left:10px; margin-right: 10px"; class="row">
+    <section class="col-md-5" >
 
         <div class="card">
             <div class="card-header">
